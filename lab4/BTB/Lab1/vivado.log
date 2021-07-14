@@ -1,0 +1,37 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon May 31 18:30:46 2021
+# Process ID: 11368
+# Current directory: C:/Users/Lucifer.dark/Desktop/BTB/Lab1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7160 C:\Users\Lucifer.dark\Desktop\BTB\Lab1\Lab1.xpr
+# Log file: C:/Users/Lucifer.dark/Desktop/BTB/Lab1/vivado.log
+# Journal file: C:/Users/Lucifer.dark/Desktop/BTB/Lab1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Lucifer.dark/Desktop/BTB/Lab1/Lab1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:37 ; elapsed = 00:00:16 . Memory (MB): peak = 706.840 ; gain = 51.168
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Lucifer.dark/Desktop/BTB/Lab1/Lab1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Lucifer.dark/Desktop/BTB/Lab1/Lab1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_tb_vlog.prj"
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Lucifer.dark/Desktop/BTB/Lab1/Lab1.srcs/sources_1/imports/generate_inst/bht_inst.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bht_inst
+INFO: [Common 17-344] 'run_program' was cancelled
+INFO: [Vivado 12-5357] 'compile' step aborted
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon May 31 18:39:42 2021...

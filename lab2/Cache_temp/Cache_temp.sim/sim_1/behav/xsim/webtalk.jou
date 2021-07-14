@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu May 13 20:33:27 2021
+# Process ID: 800
+# Current directory: C:/Users/Lucifer.dark/Desktop/Cache_temp/Cache_temp.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/Lucifer.dark/Desktop/Cache_temp/Cache_temp.sim/sim_1/behav/xsim/xsim.dir/cache_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/Lucifer.dark/Desktop/Cache_temp/Cache_temp.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/Lucifer.dark/Desktop/Cache_temp/Cache_temp.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Lucifer.dark/Desktop/Cache_temp/Cache_temp.sim/sim_1/behav/xsim/xsim.dir/cache_tb_behav/webtalk/xsim_webtalk.tcl -notrace

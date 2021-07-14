@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu May 13 21:13:32 2021
+# Process ID: 18036
+# Current directory: C:/Users/Lucifer.dark/Desktop/Cache_temp
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14300 C:\Users\Lucifer.dark\Desktop\Cache_temp\Cache_temp.xpr
+# Log file: C:/Users/Lucifer.dark/Desktop/Cache_temp/vivado.log
+# Journal file: C:/Users/Lucifer.dark/Desktop/Cache_temp\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Lucifer.dark/Desktop/Cache_temp/Cache_temp.xpr
+update_compile_order -fileset sources_1

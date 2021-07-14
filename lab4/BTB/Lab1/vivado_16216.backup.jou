@@ -1,0 +1,47 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue May 25 21:51:00 2021
+# Process ID: 16216
+# Current directory: C:/Users/Lucifer.dark/Desktop/BTB/Lab1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20648 C:\Users\Lucifer.dark\Desktop\BTB\Lab1\Lab1.xpr
+# Log file: C:/Users/Lucifer.dark/Desktop/BTB/Lab1/vivado.log
+# Journal file: C:/Users/Lucifer.dark/Desktop/BTB/Lab1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Lucifer.dark/Desktop/BTB/Lab1/Lab1.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+source cpu_tb.tcl
+current_wave_config {Untitled 1}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/RegisterFile1}} 
+current_wave_config {Untitled 1}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/all_instr_count}} 
+current_wave_config {Untitled 1}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/branch_instr_count}} 
+current_wave_config {Untitled 1}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/right_predict_count}} 
+current_wave_config {Untitled 1}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/error_predict_count}} 
+run all
+close_sim
+import_files -norecurse C:/Users/Lucifer.dark/Desktop/Git/ustc_ca2021_lab/lab4/Test/ASM-Benchmark/generate_inst/bht_inst.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+source cpu_tb.tcl
+current_wave_config {Untitled 2}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/RegisterFile1}} 
+current_wave_config {Untitled 2}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/all_instr_count}} 
+current_wave_config {Untitled 2}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/branch_instr_count}} 
+current_wave_config {Untitled 2}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/right_predict_count}} 
+current_wave_config {Untitled 2}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/error_predict_count}} 
+run all
+close_sim

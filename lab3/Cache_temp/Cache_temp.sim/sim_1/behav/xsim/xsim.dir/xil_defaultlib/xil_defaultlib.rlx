@@ -1,0 +1,9 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/Lucifer.dark/Desktop/Cache_temp/Cache_temp.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Cache_temp/Cache_temp.srcs/sim_1/imports/CacheSrcCode/cache_tb.sv,1620915886,systemVerilog,,,,cache_tb,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Cache_temp/Cache_temp.srcs/sources_1/imports/CacheSrcCode/cache.sv,1620916086,systemVerilog,,C:/Users/Lucifer.dark/Desktop/Cache_temp/Cache_temp.srcs/sources_1/imports/CacheSrcCode/main_mem.sv,,cache,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Cache_temp/Cache_temp.srcs/sources_1/imports/CacheSrcCode/main_mem.sv,1620902462,systemVerilog,,C:/Users/Lucifer.dark/Desktop/Cache_temp/Cache_temp.srcs/sources_1/imports/CacheSrcCode/mem.sv,,main_mem,,,,,,,,
+C:/Users/Lucifer.dark/Desktop/Cache_temp/Cache_temp.srcs/sources_1/imports/CacheSrcCode/mem.sv,1620902462,systemVerilog,,C:/Users/Lucifer.dark/Desktop/Cache_temp/Cache_temp.srcs/sim_1/imports/CacheSrcCode/cache_tb.sv,,mem,,,,,,,,

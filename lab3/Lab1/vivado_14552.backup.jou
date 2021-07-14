@@ -1,0 +1,99 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri May 14 09:05:58 2021
+# Process ID: 14552
+# Current directory: C:/Users/Lucifer.dark/Desktop/Lab1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7160 C:\Users\Lucifer.dark\Desktop\Lab1\Lab1.xpr
+# Log file: C:/Users/Lucifer.dark/Desktop/Lab1/vivado.log
+# Journal file: C:/Users/Lucifer.dark/Desktop/Lab1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Lucifer.dark/Desktop/Lab1/Lab1.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source cpu_tb.tcl
+current_wave_config {Untitled 1}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WBSegReg1/cache_test_instance/main_mem_instance/mem_inst}} 
+current_wave_config {Untitled 1}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WBSegReg1/cache_test_instance/main_mem_instance/mem_inst/ram_cell}} 
+current_wave_config {Untitled 1}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WBSegReg1/cache_test_instance/main_mem_instance/mem_inst/ram_cell}} 
+relaunch_sim
+run all
+close_sim
+launch_simulation
+source cpu_tb.tcl
+current_wave_config {Untitled 2}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WBSegReg1/cache_test_instance/main_mem_instance/mem_inst/ram_cell}} 
+run all
+relaunch_sim
+run all
+close_sim
+launch_simulation
+source cpu_tb.tcl
+current_wave_config {Untitled 3}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WBSegReg1/cache_test_instance/main_mem_instance/mem_inst/ram_cell}} 
+run all
+close_sim
+launch_simulation
+source cpu_tb.tcl
+current_wave_config {Untitled 4}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WBSegReg1/cache_test_instance/main_mem_instance/mem_inst/ram_cell}} 
+run all
+close_sim
+launch_simulation
+source cpu_tb.tcl
+current_wave_config {Untitled 5}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WBSegReg1/cache_test_instance/main_mem_instance/mem_inst/ram_cell}} 
+run all
+close_sim
+launch_simulation
+source cpu_tb.tcl
+relaunch_sim
+current_wave_config {Untitled 6}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WBSegReg1/cache_test_instance/main_mem_instance/mem_inst}} 
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+current_wave_config {Untitled 6}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WBSegReg1/cache_test_instance/cache_mem}} 
+relaunch_sim
+run all
+close_sim
+import_files -norecurse C:/Users/Lucifer.dark/Desktop/Git/ustc_ca2021_lab/lab3/ASM-Benchmark/generate_inst/InstructionCache_M.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+source cpu_tb.tcl
+current_wave_config {Untitled 7}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WBSegReg1/cache_test_instance/main_mem_instance/mem_inst/ram_cell}} 
+run all
+close_sim
+launch_simulation
+source cpu_tb.tcl
+current_wave_config {Untitled 8}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WBSegReg1/cache_test_instance/main_mem_instance/mem_inst}} 
+run all
+close_sim
+launch_simulation
+source cpu_tb.tcl
+current_wave_config {Untitled 9}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WBSegReg1/cache_test_instance/main_mem_instance/mem_inst/ram_cell}} 
+run all
+close_sim
+launch_simulation
+source cpu_tb.tcl
+current_wave_config {Untitled 10}
+add_wave {{/cpu_tb/RV32ICore_tb_inst/WBSegReg1/cache_test_instance/main_mem_instance/mem_inst}} 
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+close_sim
